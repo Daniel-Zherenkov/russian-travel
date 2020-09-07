@@ -8,10 +8,10 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead {
-        max-width: 928px;
-        min-height: 962px;
+        width: 928px;
+        min-height: 928px;
         margin: 48px 48px 0 48px;
         display: grid;
         grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content);
@@ -20,9 +20,9 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead {
-        max-width: 768px;
+        width: 768px;
         min-height: 862px;
         margin: 48px 0 0 0;
         display: grid;
@@ -32,9 +32,9 @@
 
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .lead {
-        max-width: 320px;
+        width: 320px;
         min-height: 406px;
         margin: 48px 0 0 0;
         display: grid;
