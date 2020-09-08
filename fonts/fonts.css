@@ -13,21 +13,6 @@
     font-weight: bold;
 }
 
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 300;
-    src: url('../fonts/Inter-Bold.woff');
-    }
-
-    @font-face {
-        src: url('../fonts/Inter-Light.woff2');
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: lighter;
-    }
-
-
 
     @font-face {
         src: url('../fonts/Inter-Thin.woff2');

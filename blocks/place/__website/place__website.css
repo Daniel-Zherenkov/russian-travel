@@ -1,6 +1,5 @@
 .place__website {
     width: 456px;
-    /* height: 46px; */
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -8,18 +7,10 @@
 }
 
 
-@media screen and (max-width: 1024px) {
-
-}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__website {
         width: 352px;
-        /* height: 46px; */
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        align-self: flex-end;
     }
 
 } 

@@ -4,8 +4,6 @@
     justify-items: center;
     font-family: 'Inter', Arial, sans-serif;
     min-width: 320px;
-    /* max-width: 1280px; */
-    height: 100%;
     background-color: rgba(42, 44, 47, 1);
     color: #ffffff;
     -webkit-font-smoothing: antialiased;

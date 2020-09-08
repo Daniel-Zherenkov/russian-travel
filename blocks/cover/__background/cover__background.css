@@ -1,5 +1,9 @@
 .cover__background {
     z-index: 0;
-    position: absolute;
+    grid-row: 1/2;
+    grid-column: 1/1;
+    justify-self: center;
     width: 100%;
+    
+    min-height: 200px;
 }

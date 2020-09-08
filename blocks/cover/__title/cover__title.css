@@ -1,4 +1,6 @@
 .cover__title {
+    grid-row: 1/1;
+    grid-column: 1/1;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -15,17 +17,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .cover__title {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: bold;
         width: 288px;
-        text-align: center;
-        justify-self: center; 
-        align-self: center;
         font-size: 32px;
         line-height: 35px;
-        z-index: 2;
-        margin: 0;
     }
 
 } 
