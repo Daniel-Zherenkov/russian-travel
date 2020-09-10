@@ -1,11 +1,12 @@
 .place__paragraph {
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     margin: 0;
     text-align: left;
+    width: 100%;
 }
 .place__paragraph:nth-child(1) {
     margin-bottom: 24px;
@@ -24,6 +25,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place__paragraph {
         margin: 0 16px 0 16px;
+        width: 288px;
     }
 
 } 

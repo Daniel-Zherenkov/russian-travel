@@ -1,7 +1,6 @@
-.content {
+/* .content {
     margin: 0;
     padding: 0;
-    /* max-width: 500px; */
     overflow: hidden;
     overflow-x: hidden;
     
@@ -9,7 +8,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .content {
-        margin: 0;
+
         max-width: 1279px;
     }
 }
@@ -27,4 +26,4 @@
         margin: 0;
         max-width: 767px;
     }
-} 
+}  */

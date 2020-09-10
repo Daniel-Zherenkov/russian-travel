@@ -1,6 +1,6 @@
 .cover__link {
     width: 100%;
-    /* max-width: 1184px; */
+    height: 100%;
     display: grid;
     align-content: center;
     justify-content: center; 
@@ -8,4 +8,16 @@
     grid-template-columns: 1fr;
     text-decoration-line: none;
     color: #ffffff;
+    opacity: 1;
+    transition: opacity .5s ease-out;
 }
+
+.cover__link:hover .cover__background{
+    opacity: 0.3;
+
+}
+
+
+
+
+
