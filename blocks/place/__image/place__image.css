@@ -1,28 +1,26 @@
 .place__image {
-    max-width: 460px;
+    width: 460px;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__image {
-        max-width: 440px;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        width: 440px;
     }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__image {
-        max-width: 100%;
+        width: 340px;
     }
 
 } 
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place__image {
-        max-width: 100%;
+        width: 320px;
     }
 
 } 
